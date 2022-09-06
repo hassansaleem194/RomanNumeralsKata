@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7d8a823-e29e-45fa-8f06-1874332d323c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/codurance/RomanNumeralGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RomanNumeralGeneratorShould.java" afterDir="false" />
+    <list default="true" id="d7d8a823-e29e-45fa-8f06-1874332d323c" name="Changes" comment="First tests passing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codurance/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codurance/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codurance/RomanNumeralGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codurance/RomanNumeralGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RomanNumeralGeneratorShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RomanNumeralGeneratorShould.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RomanNumeralGeneratorShould.generate_a_roman_numeral_for_a_given_arabic_number">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.codurance.Main" />
+      <module name="RomanNumeralsHS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.codurance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RomanNumeralGeneratorShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RomanNumeralsHS" />
       <option name="PACKAGE_NAME" value="" />
@@ -57,8 +69,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RomanNumeralGeneratorShould.generate_a_roman_numeral_for_a_given_arabic_number" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RomanNumeralsHS" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RomanNumeralGeneratorShould" />
+      <option name="METHOD_NAME" value="generate_a_roman_numeral_for_a_given_arabic_number" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RomanNumeralGeneratorShould.generate_a_roman_numeral_for_a_given_arabic_number" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.RomanNumeralGeneratorShould" />
       </list>
     </recent_temporary>
@@ -72,6 +96,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662492650621</updated>
     </task>
+    <task id="LOCAL-00001" summary="First tests passing">
+      <created>1662495170780</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662495170781</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,5 +116,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="First tests passing" />
   </component>
 </project>
